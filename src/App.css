@@ -1,0 +1,225 @@
+
+.App {
+  width: 100%;
+  height: 120vh;
+  background-color: #146209;
+  font-family:poppins;
+  
+}
+
+.logo{
+  width: 90px;
+  height: 90px;
+  margin-left:5rem ;
+  margin-top:2rem ;
+}
+
+nav {
+  position: absolute;
+  top: 0rem;
+  width: 100%;
+  height: 50px;
+  font-weight: 600;
+  
+}
+
+.list {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: relative;
+  margin-right:5rem ;
+}
+.items {
+  margin-right: 30px;
+  font-size: 13px;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+
+.bold{
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: 800;
+  font: poppins;
+  margin-left:5rem ;
+  
+}
+
+.tiny{
+  color: #f1f1f1;
+  display: text;
+  margin-top: -2rem;
+  margin-left:5rem ;
+  
+
+}
+
+.iphone{
+  height: 450px;
+  width: 450px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+
+}
+
+.startbtn{
+  background-color: #026551;
+  color: #f1f1f1;
+  border-color: white;
+  margin-left:5rem ;
+  width: 150px;
+  height: 45px;
+  font-size: 10px;
+  margin-top: 3rem;
+}
+
+.introbtn{
+  background-color: white;
+  color: #026551;
+  border:none;
+  margin-left:3rem;
+  width: 150px;
+  height: 45px;
+  font-size: 10px;
+  
+}
+
+.icon{
+  width: 15px;
+  height: 15px;
+  left: 22.5%;
+  bottom: 15.5%;
+  position:absolute;
+
+}
+
+/* the hidden part */
+.hmm{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.feat1{
+  color: #f1f1f1;
+  margin-left:5rem ; 
+  font-size: 20px;
+}
+.sub1{
+  color: #dfd9d9;
+  font-size: 15px;
+  margin-top: -1rem;
+}
+.feat2{
+  color: #f1f1f1;
+  margin-left:4rem;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+.sub2{
+  color: #dfd9d9;
+  font-size: 15px;
+  margin-top: 0.3rem;
+}
+.sub3{
+  color: #dfd9d9;
+  font-size: 15px;
+  margin-top: 0.3rem;
+}
+.sub4{
+  color: #dfd9d9;
+  font-size: 15px;
+  margin-top: 0rem;
+}
+.coin{
+  width: 25px;
+  height: 25px; 
+}
+.you4{
+  position: absolute;
+ }
+
+/* mobile */
+@media (max-width: 950px) {
+ .App{
+   overflow-x: hidden;
+ }
+ .list{
+  margin-right: 5rem;
+ }
+.items{
+  margin-right: 30px;
+    font-size: 10px;
+}
+.logo {
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+.iphone {
+  height: 200px;
+  width: 200px;
+  right: 25%;
+  top: 19%;
+}
+.bold {
+  font-size: 27px;
+  margin-top: 13rem;
+  margin-left:4rem;
+}
+.tiny {
+  margin-top: -1rem;
+  margin-left: 4rem;
+  font-size: 9px;
+}
+.startbtn {
+  margin-left: 7rem;
+  font-size: 10px;
+  margin-top: 1rem;
+}
+.introbtn {
+ 
+  margin-left: 7rem;
+  font-size: 10px;
+  margin-top: 1.5rem;
+}
+.icon{
+  left: 36%;
+  bottom: 29%;
+}
+.hmm{
+  flex-direction: column;
+}
+#you1{
+  margin-left: 5rem;
+}
+.sub1{
+  margin-left: 4rem;
+}
+#you2{
+  margin-left: 6rem;
+}
+.sub2{
+  margin-left: 4rem;
+}
+#you3{
+  margin-left: 6rem;
+}
+.sub3{
+  margin-left: 5rem;
+}
+.sub4{
+  margin-left: 6rem;
+}
+.coin{
+  margin-left: 6rem;
+}
+
+}
+
