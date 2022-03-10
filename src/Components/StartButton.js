@@ -5,7 +5,7 @@ function StartButton() {
   return (
     <div>
         <button className='startbtn'> Get Started</button>
-        <img src= {Images} alt="" className='icon'/>
+        {/* <img src= {Images} alt="" className='icon'/> */}
         <button className='introbtn'>Quick Intro</button>
     </div>
   )
